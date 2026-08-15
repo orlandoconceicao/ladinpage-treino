@@ -112,3 +112,5 @@ button:focus-visible,a:focus-visible,select:focus-visible{outline-color:var(--br
 [id]{scroll-margin-top:5.5rem}
 .exercise-prescription{color:var(--brand-deeper);font-size:1rem;line-height:1.5;overflow-wrap:anywhere}
 @media (max-width:480px){.exercise-prescription,.card .exercise-prescription{font-size:1.0625rem;line-height:1.55}}
+#inicio a[href="#treino"]{background:rgba(15,23,42,.7);border:1px solid var(--line);color:var(--heading);box-shadow:none}
+#inicio a[href="#treino"]:hover{background:var(--surface-hover);border-color:var(--brand)}
