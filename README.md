@@ -152,3 +152,10 @@ As cores estão centralizadas no tema e nas variáveis CSS de `src/index.css`.
 - Suporte a `prefers-reduced-motion`
 - Títulos e textos ampliados em telas pequenas
 
+## Autor
+
+**Orlando Conceição Vilhalba de Almeida**
+
+Desenvolvedor Backend em formação, desenvolvendo também interfaces responsivas com React, TypeScript e tecnologias modernas de front-end.
+
+GitHub: [orlandoconceicao](https://github.com/orlandoconceicao)
