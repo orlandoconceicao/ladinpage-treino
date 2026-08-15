@@ -4,3 +4,30 @@ html{scroll-behavior:smooth;background:#080a0b}html,body,#root{width:100%;max-wi
 .hero-art{isolation:isolate;aspect-ratio:4/3;max-width:34rem;margin-inline:auto;border:1px solid rgba(255,255,255,.09);border-radius:1.75rem;background:radial-gradient(circle at 65% 30%,rgba(255,91,25,.38),transparent 30%),linear-gradient(145deg,#1b1e20,#0c0e0f);overflow:hidden;position:relative}.hero-art:before{content:"";position:absolute;inset:12% 20%;border:clamp(1.8rem,7vw,4rem) solid rgba(255,255,255,.065);border-radius:50%;transform:rotate(-18deg)}.hero-art:after{content:"DISCIPLINA";position:absolute;left:-1rem;bottom:8%;font-size:clamp(2.6rem,11vw,6rem);font-weight:950;letter-spacing:-.07em;color:rgba(255,255,255,.055);white-space:nowrap}.hero-bar{position:absolute;z-index:2;left:12%;right:12%;top:47%;height:12%;border-radius:999px;background:linear-gradient(90deg,#ff3d18,#ff8a22);box-shadow:0 0 50px rgba(255,74,22,.3);transform:rotate(-12deg)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.card-hover:hover{transform:none}}
 @supports (bottom:env(safe-area-inset-bottom)){button.fixed.bottom-4{bottom:calc(1rem + env(safe-area-inset-bottom))}}
+@media (max-width:639px){
+  body{font-size:1rem;line-height:1.6}
+  .section{padding:4rem max(1rem,min(5.13vw,1.25rem))}
+  .section .mb-9{margin-bottom:2.25rem}
+  .display{line-height:1.05}
+  h1.display{font-size:clamp(2.25rem,10vw,3rem)!important}
+  h2.display{font-size:clamp(1.875rem,8vw,2.25rem)!important;line-height:1.15}
+  .card h3:not(.text-2xl):not(.text-3xl):not(.text-4xl){font-size:1.3125rem;line-height:1.25}
+  p{line-height:1.6}
+  .text-xs{font-size:.875rem!important;line-height:1.45}
+  .text-sm{font-size:1rem!important;line-height:1.6}
+  .eyebrow{font-size:.875rem;letter-spacing:.12em;line-height:1.4}
+  .muted{line-height:1.6}
+  [class*="grid-cols-2"]{grid-template-columns:minmax(0,1fr)!important}
+  .grid{gap:1rem}
+  .card:not(:has(.card)){padding:1.5rem!important;border-radius:1rem}
+  .card>svg{width:2rem;height:2rem}
+  .card h4{font-size:1.0625rem;line-height:1.4}
+  .pill{padding:.45rem .75rem!important;font-size:.875rem!important}
+  main a[class*="min-h-13"]{min-height:3.5rem;font-size:1.0625rem;padding: .875rem 1.25rem}
+  header nav a{min-height:3.25rem;font-size:1rem}
+  .hero-art{width:100%;max-width:31.25rem;aspect-ratio:1/1;border-radius:1.5rem}
+  #inicio>.wrap{padding-inline:max(1rem,min(5.13vw,1.25rem));padding-top:3rem;padding-bottom:4rem}
+  #inicio .mt-10,#inicio .mt-12{margin-top:2rem}
+  #treino select{min-height:3.5rem;padding-inline:1rem;font-size:1rem}
+  footer{padding-block:4rem!important}
+}
