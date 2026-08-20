@@ -1,8 +1,8 @@
 # FORJA — Landing Page de Treino
 
-Landing page moderna e responsiva para apresentação de um plano de força, resistência, hipertrofia e Muay Thai.
+Landing page moderna e responsiva para apresentação de um plano de força, resistência e hipertrofia com preparação complementar para o Corpo de Bombeiros / CBMMS.
 
-O projeto foi desenvolvido com foco em consulta rápida durante o treino, boa legibilidade e experiência mobile — especialmente em telas próximas de 360 px, como o Motorola Moto G10.
+O projeto foi desenvolvido com foco em consulta rápida durante o treino, boa legibilidade e experiência em celulares — especialmente em telas próximas de 360 px, como o Motorola Moto G10.
 
 ## Tecnologias
 
@@ -16,18 +16,17 @@ O projeto foi desenvolvido com foco em consulta rápida durante o treino, boa le
 ## Funcionalidades
 
 - Tema escuro com identidade em azul bebê
-- Layout mobile-first sem rolagem horizontal
-- Header fixo com menu responsivo
-- Navegação interna com scroll suave
-- Hero com atalhos para treino e alimentação
-- Plano alimentar com timeline de refeições
+- Interface pensada primeiro para celulares, sem rolagem horizontal
+- Cabeçalho fixo com menu responsivo
+- Navegação interna com rolagem suave
+- Apresentação com atalho direto para o treino
 - Treinos organizados por dia da semana
-- Seletor de treino no celular e tabs no desktop
+- Seletor de treino no celular e abas no computador
 - Exercícios renderizados a partir de dados TypeScript
 - Séries e repetições apresentadas no mesmo bloco
-- Cards de correção de assimetria
-- Orientações de condicionamento e descanso
-- Exemplo visual de progressão de carga
+- Cartões de correção de assimetria
+- Corridas integradas diretamente aos treinos de terça e sexta
+- Preparação complementar para o CBMMS integrada aos exercícios
 - Animações discretas com suporte a movimento reduzido
 - Botão móvel para voltar ao topo
 
@@ -114,11 +113,11 @@ O projeto foi preparado para:
 - 375 px
 - 390 px
 - 414 px
-- Tablets
+- Dispositivos móveis maiores
 - Notebooks
 - Desktops e telas ultrawide
 
-A meta viewport está configurada e o CSS protege a página contra overflow horizontal. No celular, cards e botões são empilhados e recebem dimensões maiores para facilitar leitura e toque.
+A configuração de exibição está preparada e o CSS protege a página contra rolagem horizontal. No celular, cartões e botões são empilhados e recebem dimensões maiores para facilitar leitura e toque.
 
 ## Identidade visual
 
@@ -128,7 +127,7 @@ A interface utiliza tema escuro com azul bebê como destaque principal:
 Azul bebê:          #89CFF0
 Fundo principal:    #0B1120
 Fundo secundário:   #0F172A
-Cards:              #111827
+Cartões:            #111827
 Texto principal:    #F8FAFC
 Texto secundário:   #CBD5E1
 ```
@@ -140,7 +139,7 @@ As cores estão centralizadas no tema e nas variáveis CSS de `src/index.css`.
 | Comando | Descrição |
 | --- | --- |
 | `npm run dev` | Inicia o ambiente de desenvolvimento |
-| `npm run build` | Valida o TypeScript e gera o build de produção |
+| `npm run build` | Valida o TypeScript e gera a versão de produção |
 | `npm run preview` | Executa uma prévia local do build |
 
 ## Acessibilidade
@@ -156,7 +155,7 @@ As cores estão centralizadas no tema e nas variáveis CSS de `src/index.css`.
 
 **Orlando Conceição Vilhalba de Almeida**
 
-Desenvolvedor Backend em formação, com foco em Python, Django, Django REST Framework, PostgreSQL, APIs REST e Docker, utilizando React como tecnologia complementar para integração das aplicações.
+Desenvolvedor de sistemas em formação, com foco em Python, Django, Django REST Framework, PostgreSQL, APIs REST e Docker, utilizando React como tecnologia complementar para integração das aplicações.
 
 GitHub: [github.com/orlandoconceicao](https://github.com/orlandoconceicao)
 
