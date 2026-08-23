@@ -4,6 +4,12 @@ Landing page moderna e responsiva para apresentação de um plano de força, res
 
 O projeto foi desenvolvido com foco em consulta rápida durante o treino, boa legibilidade e experiência em celulares — especialmente em telas próximas de 360 px, como o Motorola Moto G10.
 
+## Projeto online
+
+Acesse a aplicação em produção:
+
+[Ver projeto online](https://ladinpage-treino.vercel.app/)
+
 ## Tecnologias
 
 - React
