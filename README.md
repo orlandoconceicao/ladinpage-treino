@@ -21,7 +21,7 @@ Acesse a aplicação em produção:
 
 ## Funcionalidades
 
-- Tema escuro com identidade em azul bebê
+- Tema escuro em preto, branco e tons neutros de cinza
 - Interface pensada primeiro para celulares, sem rolagem horizontal
 - Cabeçalho fixo com menu responsivo
 - Navegação interna com rolagem suave
@@ -127,15 +127,15 @@ A configuração de exibição está preparada e o CSS protege a página contra 
 
 ## Identidade visual
 
-A interface utiliza tema escuro com azul bebê como destaque principal:
+A interface utiliza uma paleta monocromática:
 
 ```text
-Azul bebê:          #89CFF0
-Fundo principal:    #0B1120
-Fundo secundário:   #0F172A
-Cartões:            #111827
-Texto principal:    #F8FAFC
-Texto secundário:   #CBD5E1
+Fundo principal:    #050505
+Fundo secundário:   #0A0A0A
+Cartões:            #111111
+Destaque:           #FFFFFF
+Texto principal:    #FAFAFA
+Texto secundário:   #D4D4D8
 ```
 
 As cores estão centralizadas no tema e nas variáveis CSS de `src/index.css`.
