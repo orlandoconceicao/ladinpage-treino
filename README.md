@@ -30,9 +30,9 @@ Acesse a aplicação em produção:
 - Seletor de treino no celular e abas no computador
 - Exercícios renderizados a partir de dados TypeScript
 - Séries e repetições apresentadas no mesmo bloco
-- Cartões de correção de assimetria
-- Corridas integradas diretamente aos treinos de terça e sexta
-- Preparação complementar para o CBMMS integrada aos exercícios
+- Divisão semanal de cinco treinos: dois dias de pernas, dois de costas e um de peito e ombros
+- Descanso no sábado e no domingo
+- Orientações de descanso entre séries, técnica e progressão de carga
 - Animações discretas com suporte a movimento reduzido
 - Botão móvel para voltar ao topo
 
